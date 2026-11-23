@@ -16,7 +16,7 @@
     },
     {
       "path": "bootstrap.mjs",
-      "sha256": "b9f366c708120b2de011d8393764b1b347a90b37709431c0dea8e2222830ac50"
+      "sha256": "4d2e9ddc3f91d1cb569ffd8542262fb737a20179c587146255378dbe46b4a0d5"
     },
     {
       "path": "game-bootstrap.mjs",
@@ -109,6 +109,26 @@
     {
       "path": "game/commonLearningCatalog.js",
       "sha256": "1208111d77521dd15cad23a5321407e75e4d00ef145deecff2875b897b0430a2"
+    },
+    {
+      "path": "game/externalLaunch.js",
+      "sha256": "1aaf44451a5577bede5de6d94b035c854249beda1d69a8fd075431d6d6dac6a1"
+    },
+    {
+      "path": "game/sq-learning/catalog.json",
+      "sha256": "3eb20e440eef3bb7b9a6810abc1745575c33bd04a392736bcfae4f6679226243"
+    },
+    {
+      "path": "game/sq-learning/catalog-pin.json",
+      "sha256": "1d2f165b09e3ef94229394caf953967d2679e31073af50f0bfe18eada3c353da"
+    },
+    {
+      "path": "game/sq-learning/math-g4-catalog.json",
+      "sha256": "e1435ec3c7a34f3198fdbef07e3e2baeee338f820aa94270a88d2dd094bb24f9"
+    },
+    {
+      "path": "game/sq-learning/receiver-catalog.mjs",
+      "sha256": "878e511bcd121b5ddcae9fe478f2a82245d8c0887f38d637431b0f5cbf79fab2"
     }
   ],
   "distribution": "formal-student-operating"

@@ -3,7 +3,7 @@ import { QB3_CONTINUITY_PIN } from './commonContinuity.js';
 import { portalURL } from './sq-learning/portal-url.mjs';
 import { decodeLaunch, validateLaunch } from './sq-learning/launch.mjs';
 import { nativeChoices, checkResume, checkStart, sameChoices } from './sq-learning/cafe-policy.mjs';
-import pin from './sq-learning/catalog-pin.json' with { type: 'json' };
+import { loadReceiverCatalog } from './sq-learning/receiver-catalog.mjs?receiver=20261123-CPLUS-638-1';
 import { loadCommonRuntime } from './commonBankLoader.js';
 let launch = null, catalog = null, choices = null, nativeCatalog = null, unit = null, lease = false, releaseLease = null, lastError = '', preflight = null, lastProbe = 0, lastProbeState = '';
 let historical = false;
@@ -13,7 +13,7 @@ addEventListener('hashchange', () => { if (launch || location.hash.startsWith('#
 const key = () => 'sq-cafe-launch/' + launch.launchId;
 const continuous = () => launch?.subject === 'math' && launch?.manifestSHA256 === QB3_CONTINUITY_PIN;
 const journal = () => { const raw = localStorage.getItem(key()); return raw ? JSON.parse(raw) : null; };
-export function manualReturn() { location.replace(location.pathname + location.search); }
+export function manualReturn() { if(parent!==window&&parent.location.origin===location.origin&&parent.location.hash.startsWith('#sq'))parent.location.replace(parent.location.pathname+parent.location.search);else location.replace(location.pathname + location.search); }
 function banner(error = '') {
     let box = document.getElementById('sq-cafe-summary');
     if (!box) {
@@ -31,6 +31,7 @@ function banner(error = '') {
     button.onclick = manualReturn;
     back.textContent = '포털에서 학습 변경';
     back.href = portalURL();
+    if(parent!==window)back.onclick=event=>{event.preventDefault();parent.postMessage({type:'sunshine-portal-return/1'},location.origin);};
     box.append(title, p, button, back);
     if (error)
         box.dataset.error = 'true';
@@ -51,14 +52,7 @@ export async function attachExternal(c) {
     if (!location.hash.startsWith('#sq'))
         return;
     try {
-        const r = await fetch('./sq-learning/catalog.json', { cache: 'no-store' });
-        if (!r.ok)
-            throw Error('Pilot 학습 목록을 읽지 못했어요.');
-        const bytes = new Uint8Array(await r.arrayBuffer());
-        const digest = Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256', bytes)), x => x.toString(16).padStart(2, '0')).join('');
-        if (digest !== pin.sha256)
-            throw Error('Pilot 학습 목록 해시가 달라요.');
-        catalog = JSON.parse(new TextDecoder().decode(bytes));
+        catalog = await loadReceiverCatalog(location);
         launch = decodeLaunch(location, catalog);
         if (!launch)
             return;
@@ -68,6 +62,7 @@ export async function attachExternal(c) {
         if (!['3.0.0-mega-rc.1', '3.1.0-renewal-rc.1', '3.1.0-renewal-rc.2', '3.2.0-growth-only-rc.1'].includes(version.version))
             throw Error('Cafe v3.0 실행 버전과 Pilot 기준 버전이 달라요.');
         const s = launch.scopes[0];
+        if(launch.subject==='math'&&s.grade===4&&launch.manifestSHA256!=='1e4acf80c8fb806b3b53339eca14252f4b6cace0c88c065d78e32b1545ce0f0e')throw Error('이 카페의 수학 4학년은 새 운영팩의 승인된 학습목표 선택이 필요해요. 이전 목표를 임의로 바꾸지 않았어요.');
         unit = catalog.units.find(u => u.subject === launch.subject && u.sourceId === s.sourceId && u.id === s.unitId);
         choices = nativeChoices(launch, catalog);
         await acquire();

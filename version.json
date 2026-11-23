@@ -43,5 +43,8 @@
   "studentContract": "0.1.0-integration-candidate-approved",
   "releasedAt": "2026-11-23T10:11:54.945252Z",
   "gameBindingId": "CAFE-GAME-BINDING-ff78c95c-5c0c-412a-8412-25aef6873132",
-  "studentActivationId": "CAFE-STUDENT-ACTIVATION-0d5e1ee3-92e4-49e4-b6da-995cfacc4f1d"
+  "studentActivationId": "CAFE-STUDENT-ACTIVATION-0d5e1ee3-92e4-49e4-b6da-995cfacc4f1d",
+  "schoolQuestReceiverVersion": "sunshine-cafe-launch/1",
+  "schoolQuestReceiverBuild": "20261123-CPLUS-638-1",
+  "schoolQuestObjectiveSourceSHA256": "a340a6a65539f8082e1cf24f23e886c5cd3b9cf919a864e97d3836a4f981e772"
 }
