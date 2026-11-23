@@ -1,0 +1,31 @@
+{
+  "schema": "sunshine-final-release-approval/1",
+  "issuedAt": "2026-11-23T10:11:54.945252Z",
+  "issuedBy": "Codex executing explicit current user authorization",
+  "userAuthorizationSHA256": "4551dabf9e28df5150137cbb388e9d967c3acd92a4c74b098235e6f929122011",
+  "gameBindingId": "CAFE-GAME-BINDING-ff78c95c-5c0c-412a-8412-25aef6873132",
+  "studentActivationId": "CAFE-STUDENT-ACTIVATION-0d5e1ee3-92e4-49e4-b6da-995cfacc4f1d",
+  "apiVersion": "qb3-student-api/0.1.0-integration-candidate",
+  "apiFiles": {
+    "student-api.mjs": "a00a16c122db073b5697c724983107dd5030fcfd1df1141a288b368ac7403b84",
+    "verified-session.mjs": "b9e9cc876df0c4e7b69c819931c8c54bc6f77c05d42a09d6c862c192ac0d5375"
+  },
+  "entrySHA256": "e80e23c9212d3f98f6259325104f5cf54550435e0d17116ce97ccbad19a61e42",
+  "jsEntrySHA256": "95b9a00767c4ba96d7883983400bb9578d269f29459c3fde39b46c326ab5df48",
+  "operatingPublicationId": "OP-QB3-G4-638-f7a30e51-a763-452b-b47a-285a586748dd",
+  "manifestSHA256": "1e4acf80c8fb806b3b53339eca14252f4b6cace0c88c065d78e32b1545ce0f0e",
+  "receiptSHA256": "5017cafd731fb7a8dd15a0c38fbca0be334b0eb1ace744c580be26a3b9b5fbf6",
+  "scopeDigest": "3d77e661b90e46641daa27eb37b4b8a8399a83f68105a5d274b45def3907300b",
+  "scope": {
+    "grade": 4,
+    "subject": "math",
+    "objectives": 638,
+    "profiles": 840,
+    "conditions": 124375,
+    "excludedConditions": 3023,
+    "blockedObjectives": 90
+  },
+  "expiryPolicy": "Expires in 365 days; revoke by removing installed activation or rolling back this formal site only. Exact API/entry/version/build/host/path changes require renewed authorization.",
+  "rollbackCommit": "c1b6262ead0afeadfb7d7228053cc7a46f0f385a",
+  "storagePolicy": "Never delete or reset namespace during rollback; preserve new snapshots separately from code rollback."
+}

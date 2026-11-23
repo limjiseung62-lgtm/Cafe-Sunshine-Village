@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "qb3-student-activation/1",
+  "state": "APPROVED_STUDENT_ACTIVATION",
+  "approvalId": "CAFE-STUDENT-ACTIVATION-0d5e1ee3-92e4-49e4-b6da-995cfacc4f1d",
+  "evidence": "User FINAL RELEASE authorization; SHA-256 4551dabf9e28df5150137cbb388e9d967c3acd92a4c74b098235e6f929122011. Issued now by Codex under explicit user instruction; not a historical supplier approval.",
+  "approvedAt": "2026-11-23T10:11:54.945252Z",
+  "expiresAt": "2027-11-23T10:11:54.945252Z",
+  "manifestSHA256": "1e4acf80c8fb806b3b53339eca14252f4b6cace0c88c065d78e32b1545ce0f0e",
+  "scopeDigest": "3d77e661b90e46641daa27eb37b4b8a8399a83f68105a5d274b45def3907300b",
+  "bindingSHA256": "8181c646fe888c33833e2eafe7c411fcd51c8579ceb30dbe821b1e02f8920a85",
+  "studentSupplyEnabled": true,
+  "apiFiles": {
+    "student-api.mjs": "a00a16c122db073b5697c724983107dd5030fcfd1df1141a288b368ac7403b84",
+    "verified-session.mjs": "b9e9cc876df0c4e7b69c819931c8c54bc6f77c05d42a09d6c862c192ac0d5375"
+  }
+}

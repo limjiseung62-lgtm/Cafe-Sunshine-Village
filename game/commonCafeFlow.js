@@ -79,6 +79,8 @@ export class CommonCafeFlow {
     async answer(response, seconds = 0, attemptId = 'attempt-' + this.current?.delivery.id) {
         if (!this.current)
             throw Error('출제 기회를 먼저 확인해 주세요.');
+        if(this.answered||this.answering)return{status:'invalid',reason:'ALREADY_SUBMITTED',duplicate:true,productionAllowed:false};
+        this.answering=true;try{
         const { sourceId, delivery, sessionId } = this.current, s = this.sources.get(sourceId);
         const result = await s.engine.applyAttemptEvent({ attemptId, deliveryId: delivery.id, response, seconds });
         if (result.status === 'invalid')
@@ -100,6 +102,7 @@ export class CommonCafeFlow {
         if (productionAllowed)
             this.awards.push({ sourceId, flowId, attemptId: result.acceptedAttemptId });
         return { ...result, flowId, productionAllowed, question: this.question() };
+        }finally{this.answering=false}
     }
     async snapshot() { const sources = []; for (const [id, s] of this.sources)
         sources.push({ id, backup: await s.engine.serialize(), sessionIds: [...s.sessionIds] }); return { version: 1, subject: this.loaded.subject, manifestSHA256: this.loaded.manifestSHA256, learningRecordId: this.learningRecordId, gameSessionId: this.gameSessionId, choices: structuredClone(this.choices), sources, sessions: structuredClone(this.sessions), pendingTwins: structuredClone(this.pendingTwins), turn: this.turn, current: this.current ? { ...structuredClone(this.current), answered: this.answered } : null, awards: structuredClone(this.awards), ...this.gameSpecific ? { gameSpecific: this.gameSpecific } : {}, ...this.firstReport ? { firstReport: this.firstReport } : {} }; }

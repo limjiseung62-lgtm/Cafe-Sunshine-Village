@@ -1,1 +1,1 @@
-export async function loadQA(){throw Error('PUBLIC_REVIEW_QA_PROVIDER_DISABLED')}
+export async function loadQA(){throw Error('QA_SUPPLIER_NOT_IN_PUBLIC_BUILD')}

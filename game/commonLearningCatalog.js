@@ -1,3 +1,4 @@
+import{studentCatalogMode}from'./student-cafe-supply.js';
 import {issuedLocal,ISSUED_MANIFEST} from './issuedMathLocal.js';
 import { prepareCommonDisplay } from './commonSVGDisplay.js';
 import { QuestionPackCatalog } from './questionPack.js';
@@ -20,7 +21,7 @@ export class CommonLearningCatalog extends QuestionPackCatalog {
         this.legacy = legacy;
         for (const s of subjects) {
             const u = s.units.find(u => u.grade === 4 && u.semester === 2 && u.unitId === 'sem2_unit4') ?? s.units[0];
-            this.setChoices(s.subject, [{ semesterKey: u.semesterKey, unitId: u.unitId, unitLabel: u.unitLabel, ...(issuedLocal()&&s.subject==='math'&&u.grade===4?{skillIds:[u.skills[0].id]}:{}) }]);
+            this.setChoices(s.subject, [{ semesterKey: u.semesterKey, unitId: u.unitId, unitLabel: u.unitLabel, ...((issuedLocal()||studentCatalogMode())&&s.subject==='math'&&u.grade===4?{skillIds:[u.skills[0].id]}:{}) }]);
         }
     }
     prepareResume(value) { this.resume = value ?? null; const c = value?.learning?.session?.common; globalThis.__SUNSHINE_EXPECTED_MATH_PIN=c?.subject==='math'?c.manifestSHA256:null; this.subjects=c?.subject==='math'&&![ISSUED_MANIFEST,'2947f91645686b9fc3b13bae9aa4c7f26e6180e1c623c91da5f935efe4a361fb'].includes(c.manifestSHA256)?(globalThis.__SUNSHINE_LEGACY_SUBJECTS??this.candidateSubjects):this.candidateSubjects; if (c?.version === 1 && this.subjects.some(s => s.subject === c.subject))
@@ -81,7 +82,7 @@ export function mountCommonPicker(select, catalog) {
             first.checked = true;
             selected.push(s.units.find(u => u.unitId === first.value && u.grade === Number(grade.value) && u.semester === Number(semester.value)));
         }
-    } catalog.setChoices(s.subject, selected.map(u => ({ semesterKey: u.semesterKey, unitId: u.unitId, unitLabel: u.unitLabel, ...(issuedLocal()&&s.subject==='math'&&u.grade===4?{skillIds:[u.skills[0].id]}:{}) }))); select.value = s.packId; select.dispatchEvent(new Event('change')); host.querySelector('#study-title').textContent = s.label + ' · ' + selected.map(u => u.unitLabel).join(', '); skills(); };
+    } catalog.setChoices(s.subject, selected.map(u => ({ semesterKey: u.semesterKey, unitId: u.unitId, unitLabel: u.unitLabel, ...((issuedLocal()||studentCatalogMode())&&s.subject==='math'&&u.grade===4?{skillIds:[u.skills[0].id]}:{}) }))); select.value = s.packId; select.dispatchEvent(new Event('change')); host.querySelector('#study-title').textContent = s.label + ' · ' + selected.map(u => u.unitLabel).join(', '); skills(); };
     const skills = () => { skillBox.querySelectorAll('label').forEach(l => l.remove()); const s = catalog.subjects.find(s => s.subject === subject.value); for (const choice of catalog.choices(s.subject)) {
         const u = s.units.find(u => u.unitId === choice.unitId && u.semesterKey === choice.semesterKey);
         for (const k of u.skills) {

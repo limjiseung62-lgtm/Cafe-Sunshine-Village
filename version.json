@@ -1,12 +1,12 @@
 {
-  "version": "sunshine-part1-formal-candidate.1",
-  "build": "20261123-FORMAL-638-1",
+  "version": "sunshine-part1-student-api-candidate.1",
+  "build": "20261123-STUDENT-API-638-1",
   "cafeVersion": "3.2.0-growth-only-rc.1",
   "cafeCommit": "c072d237c9e0e21c00fb0c36033bff9a87cee7dd",
   "storyCommit": "aaec997",
   "storyReview": "18bb108",
   "storageNamespace": "sunshine-village-official-v1/",
-  "testOnly": true,
+  "testOnly": false,
   "economyChanged": false,
   "storageBackend": "IndexedDB",
   "storageDatabaseVersion": 1,
@@ -16,8 +16,8 @@
   "integrationCommit": "40468113bb895c8141ab202301fba3a29d3cde16",
   "integrationReview": "4886abf",
   "transport": "gzip-original-sha256",
-  "operationalApproval": false,
-  "productionReady": false,
+  "operationalApproval": true,
+  "productionReady": true,
   "publicSVGPreparation": "on-demand-display-after-scoped-approval",
   "storyAutoFlow": true,
   "branchMobileCanvasFix": true,
@@ -28,7 +28,7 @@
   "firstPageFallback": "preserve-actual-owned-branch-and-facilities",
   "localQAOnly": false,
   "publicDeployment": true,
-  "studentSupplyActivated": 0,
+  "studentSupplyActivated": 1,
   "supplier": {
     "approvalId": "OP-QB3-G4-638-f7a30e51-a763-452b-b47a-285a586748dd",
     "manifestSHA256": "1e4acf80c8fb806b3b53339eca14252f4b6cace0c88c065d78e32b1545ce0f0e",
@@ -38,7 +38,10 @@
     "approvalReceiptIssued": true
   },
   "targetBasePath": "/Cafe-Sunshine-Village/",
-  "candidateOnly": true,
-  "distribution": "https-inactive-review",
-  "developmentProviders": "removed-from-public-consumer-APIs"
+  "candidateOnly": false,
+  "distribution": "formal-student-operating",
+  "studentContract": "0.1.0-integration-candidate-approved",
+  "releasedAt": "2026-11-23T10:11:54.945252Z",
+  "gameBindingId": "CAFE-GAME-BINDING-ff78c95c-5c0c-412a-8412-25aef6873132",
+  "studentActivationId": "CAFE-STUDENT-ACTIVATION-0d5e1ee3-92e4-49e4-b6da-995cfacc4f1d"
 }

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "qb3-game-binding/1",
+  "state": "APPROVED_GAME_BINDING",
+  "approvalId": "CAFE-GAME-BINDING-ff78c95c-5c0c-412a-8412-25aef6873132",
+  "evidence": "User FINAL RELEASE authorization; SHA-256 4551dabf9e28df5150137cbb388e9d967c3acd92a4c74b098235e6f929122011. Issued now by Codex under explicit user instruction; not a historical supplier approval.",
+  "approvedAt": "2026-11-23T10:11:54.945252Z",
+  "expiresAt": "2027-11-23T10:11:54.945252Z",
+  "manifestSHA256": "1e4acf80c8fb806b3b53339eca14252f4b6cace0c88c065d78e32b1545ce0f0e",
+  "scopeDigest": "3d77e661b90e46641daa27eb37b4b8a8399a83f68105a5d274b45def3907300b",
+  "consumerId": "cafe-learning-tycoon",
+  "gameId": "cafe",
+  "origin": "https://limjiseung62-lgtm.github.io",
+  "basePath": "/Cafe-Sunshine-Village/",
+  "entryPath": "/Cafe-Sunshine-Village/game/index.html",
+  "version": "sunshine-part1-student-api-candidate.1",
+  "build": "20261123-STUDENT-API-638-1",
+  "entrySHA256": "e80e23c9212d3f98f6259325104f5cf54550435e0d17116ce97ccbad19a61e42"
+}
