@@ -1,0 +1,280 @@
+{
+  "profiles": [
+    {
+      "groupId": "sem1_unit4/movement.decode-transform-of-stated-seven-segment-digits|movement.decode-transform-of-stated-seven-segment-digits|2|1a37be0d0da0090174587e7d15b8ab0cdf362cef386e64e0165bec20721f31df",
+      "semesterKey": "g4s1",
+      "unitId": "sem1_unit4",
+      "skillId": "sem1_unit4/movement.decode-transform-of-stated-seven-segment-digits",
+      "level": 2,
+      "style": "calculation",
+      "conditions": 4,
+      "minReviewSufficient": true,
+      "recent12WorstCase": false
+    },
+    {
+      "groupId": "sem1_unit4/movement.decode-transform-of-stated-seven-segment-digits|movement.decode-transform-of-stated-seven-segment-digits|2|d727a054d48791552cb06152c18a94e1aecc205cd37b6ebba700411c3d8e84b2",
+      "semesterKey": "g4s1",
+      "unitId": "sem1_unit4",
+      "skillId": "sem1_unit4/movement.decode-transform-of-stated-seven-segment-digits",
+      "level": 2,
+      "style": "calculation",
+      "conditions": 13,
+      "minReviewSufficient": true,
+      "recent12WorstCase": false
+    },
+    {
+      "groupId": "sem1_unit4/movement.match-congruent-cell-piece-under-allowed-rotations|movement.match-congruent-cell-piece-under-allowed-rotations|2|97719ab2f4a296d38b432acc26fd13dbc06d762ac513b528e31ba0a834390b6b",
+      "semesterKey": "g4s1",
+      "unitId": "sem1_unit4",
+      "skillId": "sem1_unit4/movement.match-congruent-cell-piece-under-allowed-rotations",
+      "level": 2,
+      "style": "calculation",
+      "conditions": 7,
+      "minReviewSufficient": true,
+      "recent12WorstCase": false
+    },
+    {
+      "groupId": "sem1_unit4/movement.match-congruent-cell-piece-under-allowed-rotations|movement.match-congruent-cell-piece-under-allowed-rotations|2|3f799ece0a5ef07b1ef81b65c23986b08d065f01fd596eb7806f24f879bd09eb",
+      "semesterKey": "g4s1",
+      "unitId": "sem1_unit4",
+      "skillId": "sem1_unit4/movement.match-congruent-cell-piece-under-allowed-rotations",
+      "level": 2,
+      "style": "calculation",
+      "conditions": 6,
+      "minReviewSufficient": true,
+      "recent12WorstCase": false
+    },
+    {
+      "groupId": "sem1_unit4/movement.decide-exact-rectangle-cover-by-repeated-piece|movement.decide-exact-rectangle-cover-by-repeated-piece|3|64c142061abc24fe43fe5db756857f3f0733d519ea0760887e0506a3bb523e98",
+      "semesterKey": "g4s1",
+      "unitId": "sem1_unit4",
+      "skillId": "sem1_unit4/movement.decide-exact-rectangle-cover-by-repeated-piece",
+      "level": 3,
+      "style": "calculation",
+      "conditions": 14,
+      "minReviewSufficient": true,
+      "recent12WorstCase": false
+    },
+    {
+      "groupId": "sem1_unit4/movement.infer-clock-hand-quarter-turn|movement.infer-clock-hand-quarter-turn|1|f7970c1e939576834bfa03cdd040cadb146e484f8375570c7908329aa69b665d",
+      "semesterKey": "g4s1",
+      "unitId": "sem1_unit4",
+      "skillId": "sem1_unit4/movement.infer-clock-hand-quarter-turn",
+      "level": 1,
+      "style": "calculation",
+      "conditions": 12,
+      "minReviewSufficient": true,
+      "recent12WorstCase": false
+    },
+    {
+      "groupId": "sem2_unit2/triangle.count-both-orientations-and-all-composite-sizes-in-equilateral-network|triangle.count-both-orientations-and-all-composite-sizes-in-equilateral-network|3|32a7112fb811f53ded319236b63d88868641660e892a582cbda853fc2431c06b",
+      "semesterKey": "g4s2",
+      "unitId": "sem2_unit2",
+      "skillId": "sem2_unit2/triangle.count-both-orientations-and-all-composite-sizes-in-equilateral-network",
+      "level": 3,
+      "style": "calculation",
+      "conditions": 10,
+      "minReviewSufficient": true,
+      "recent12WorstCase": false
+    },
+    {
+      "groupId": "sem2_unit2/triangle.count-both-orientations-and-all-composite-sizes-in-equilateral-network|triangle.count-both-orientations-and-all-composite-sizes-in-equilateral-network|3|0811f37b5a38c98ce48ef4a69eda0160fd9be59ca784f2eefefe8f6f29f2da2a",
+      "semesterKey": "g4s2",
+      "unitId": "sem2_unit2",
+      "skillId": "sem2_unit2/triangle.count-both-orientations-and-all-composite-sizes-in-equilateral-network",
+      "level": 3,
+      "style": "calculation",
+      "conditions": 4,
+      "minReviewSufficient": true,
+      "recent12WorstCase": false
+    },
+    {
+      "groupId": "sem2_unit4/quadrilateral-count-all-rhombi-or-trapezoids-in-a-connected-equal-triangle-mesh|quadrilateral-count-all-rhombi-or-trapezoids-in-a-connected-equal-triangle-mesh|3|3bca37c77ed18011ae55833ed72a4045012cbf4554115a4480e1213b72309740",
+      "semesterKey": "g4s2",
+      "unitId": "sem2_unit4",
+      "skillId": "sem2_unit4/quadrilateral-count-all-rhombi-or-trapezoids-in-a-connected-equal-triangle-mesh",
+      "level": 3,
+      "style": "calculation",
+      "conditions": 9,
+      "minReviewSufficient": true,
+      "recent12WorstCase": false
+    },
+    {
+      "groupId": "sem2_unit4/quadrilateral-count-all-rhombi-or-trapezoids-in-a-connected-equal-triangle-mesh|quadrilateral-count-all-rhombi-or-trapezoids-in-a-connected-equal-triangle-mesh|3|e890426ceecea82ea058370e1f78f8f04173adb0f3b2827a77150ef175c18679",
+      "semesterKey": "g4s2",
+      "unitId": "sem2_unit4",
+      "skillId": "sem2_unit4/quadrilateral-count-all-rhombi-or-trapezoids-in-a-connected-equal-triangle-mesh",
+      "level": 3,
+      "style": "calculation",
+      "conditions": 12,
+      "minReviewSufficient": true,
+      "recent12WorstCase": false
+    },
+    {
+      "groupId": "sem2_unit4/quadrilateral-compare-universal-common-properties-and-square-only-properties-with-rectangle-inclusion|quadrilateral-compare-universal-common-properties-and-square-only-properties-with-rectangle-inclusion|2|faaf0005c3f6567f4a1063bb88d49069fdf50671e375add51a8d8acbe921913e",
+      "semesterKey": "g4s2",
+      "unitId": "sem2_unit4",
+      "skillId": "sem2_unit4/quadrilateral-compare-universal-common-properties-and-square-only-properties-with-rectangle-inclusion",
+      "level": 2,
+      "style": "calculation",
+      "conditions": 10,
+      "minReviewSufficient": true,
+      "recent12WorstCase": false
+    },
+    {
+      "groupId": "sem2_unit4/quadrilateral-compare-universal-common-properties-and-square-only-properties-with-rectangle-inclusion|quadrilateral-compare-universal-common-properties-and-square-only-properties-with-rectangle-inclusion|2|e32702475434054c7e19fb8510294bcc3acb6a25c36a32c1bb7dfdbd668d382c",
+      "semesterKey": "g4s2",
+      "unitId": "sem2_unit4",
+      "skillId": "sem2_unit4/quadrilateral-compare-universal-common-properties-and-square-only-properties-with-rectangle-inclusion",
+      "level": 2,
+      "style": "calculation",
+      "conditions": 10,
+      "minReviewSufficient": true,
+      "recent12WorstCase": false
+    },
+    {
+      "groupId": "sem2_unit4/quadrilateral-reject-universal-equal-adjacent-sides-in-a-rectangle-property-claim-set|quadrilateral-reject-universal-equal-adjacent-sides-in-a-rectangle-property-claim-set|2|0c07187ea6d064441225b3cba26a7b1e8bc702fcf332b457dae8e26892ba68a6",
+      "semesterKey": "g4s2",
+      "unitId": "sem2_unit4",
+      "skillId": "sem2_unit4/quadrilateral-reject-universal-equal-adjacent-sides-in-a-rectangle-property-claim-set",
+      "level": 2,
+      "style": "calculation",
+      "conditions": 10,
+      "minReviewSufficient": true,
+      "recent12WorstCase": false
+    },
+    {
+      "groupId": "sem2_unit6/polygon.count-triangles-in-single-vertex-fan|polygon.count-triangles-in-single-vertex-fan|2|44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "semesterKey": "g4s2",
+      "unitId": "sem2_unit6",
+      "skillId": "sem2_unit6/polygon.count-triangles-in-single-vertex-fan",
+      "level": 2,
+      "style": "calculation",
+      "conditions": 4,
+      "minReviewSufficient": true,
+      "recent12WorstCase": false
+    },
+    {
+      "groupId": "sem2_unit6/polygon-transfer-a-given-interior-angle-to-another-angle-using-regular-polygon-equality|polygon-transfer-a-given-interior-angle-to-another-angle-using-regular-polygon-equality|1|44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "semesterKey": "g4s2",
+      "unitId": "sem2_unit6",
+      "skillId": "sem2_unit6/polygon-transfer-a-given-interior-angle-to-another-angle-using-regular-polygon-equality",
+      "level": 1,
+      "style": "calculation",
+      "conditions": 8,
+      "minReviewSufficient": true,
+      "recent12WorstCase": false
+    },
+    {
+      "groupId": "sem2_unit6/polygon-divide-a-provided-total-angle-measure-by-the-number-of-equal-angles|polygon-divide-a-provided-total-angle-measure-by-the-number-of-equal-angles|2|44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "semesterKey": "g4s2",
+      "unitId": "sem2_unit6",
+      "skillId": "sem2_unit6/polygon-divide-a-provided-total-angle-measure-by-the-number-of-equal-angles",
+      "level": 2,
+      "style": "calculation",
+      "conditions": 11,
+      "minReviewSufficient": true,
+      "recent12WorstCase": false
+    },
+    {
+      "groupId": "sem2_unit6/polygon-count-the-equal-angles-from-a-provided-total-and-one-angle-then-name-the-polygon|polygon-count-the-equal-angles-from-a-provided-total-and-one-angle-then-name-the-polygon|2|44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "semesterKey": "g4s2",
+      "unitId": "sem2_unit6",
+      "skillId": "sem2_unit6/polygon-count-the-equal-angles-from-a-provided-total-and-one-angle-then-name-the-polygon",
+      "level": 2,
+      "style": "calculation",
+      "conditions": 11,
+      "minReviewSufficient": true,
+      "recent12WorstCase": false
+    },
+    {
+      "groupId": "sem1_unit6/pattern-follow-alternating-two-arm-growth-and-select-the-complete-next-figure|pattern-follow-alternating-two-arm-growth-and-select-the-complete-next-figure|4|03ca0d401e3758083ba8732b8435ac441b13fd1d1a0bb9464fbf6a3e0be7bb46",
+      "semesterKey": "g4s1",
+      "unitId": "sem1_unit6",
+      "skillId": "sem1_unit6/pattern-follow-alternating-two-arm-growth-and-select-the-complete-next-figure",
+      "level": 4,
+      "style": "calculation",
+      "conditions": 10,
+      "minReviewSufficient": true,
+      "recent12WorstCase": false
+    },
+    {
+      "groupId": "sem1_unit6/pattern-describe-the-repeated-digit-and-its-count-in-a-no-carry-doubling-sequence|pattern-describe-the-repeated-digit-and-its-count-in-a-no-carry-doubling-sequence|3|44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "semesterKey": "g4s1",
+      "unitId": "sem1_unit6",
+      "skillId": "sem1_unit6/pattern-describe-the-repeated-digit-and-its-count-in-a-no-carry-doubling-sequence",
+      "level": 3,
+      "style": "calculation",
+      "conditions": 12,
+      "minReviewSufficient": true,
+      "recent12WorstCase": false
+    },
+    {
+      "groupId": "sem1_unit6/pattern-describe-digit-count-and-result-digit-growth-in-an-ascending-plus-reverse-sequence|pattern-describe-digit-count-and-result-digit-growth-in-an-ascending-plus-reverse-sequence|4|44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "semesterKey": "g4s1",
+      "unitId": "sem1_unit6",
+      "skillId": "sem1_unit6/pattern-describe-digit-count-and-result-digit-growth-in-an-ascending-plus-reverse-sequence",
+      "level": 4,
+      "style": "calculation",
+      "conditions": 11,
+      "minReviewSufficient": true,
+      "recent12WorstCase": false
+    },
+    {
+      "groupId": "sem2_unit3/decimal-compare-the-values-of-the-same-digit-in-the-ones-and-thousandths-positions|decimal-compare-the-values-of-the-same-digit-in-the-ones-and-thousandths-positions|2|4f6537ff746c52e98f565313f8d6f7c7b16cce8b9aceeb2b79ea4341e7649fe8",
+      "semesterKey": "g4s2",
+      "unitId": "sem2_unit3",
+      "skillId": "sem2_unit3/decimal-compare-the-values-of-the-same-digit-in-the-ones-and-thousandths-positions",
+      "level": 2,
+      "style": "calculation",
+      "conditions": 9,
+      "minReviewSufficient": true,
+      "recent12WorstCase": false
+    },
+    {
+      "groupId": "sem1_unit5/bar-distinguish-category-names-from-the-number-of-items-in-a-horizontal-bar-chart|bar-distinguish-category-names-from-the-number-of-items-in-a-horizontal-bar-chart|2|44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "semesterKey": "g4s1",
+      "unitId": "sem1_unit5",
+      "skillId": "sem1_unit5/bar-distinguish-category-names-from-the-number-of-items-in-a-horizontal-bar-chart",
+      "level": 2,
+      "style": "calculation",
+      "conditions": 5,
+      "minReviewSufficient": true,
+      "recent12WorstCase": false
+    },
+    {
+      "groupId": "sem1_unit5/bar-evaluate-substantively-different-claims-about-representation-comparison-and-scale|bar-evaluate-substantively-different-claims-about-representation-comparison-and-scale|2|0210d11c5ecf2fad677df3dc0eb257e6009e4e87283e3541a613ef7618d5d0da",
+      "semesterKey": "g4s1",
+      "unitId": "sem1_unit5",
+      "skillId": "sem1_unit5/bar-evaluate-substantively-different-claims-about-representation-comparison-and-scale",
+      "level": 2,
+      "style": "calculation",
+      "conditions": 15,
+      "minReviewSufficient": true,
+      "recent12WorstCase": false
+    },
+    {
+      "groupId": "sem1_unit5/bar-enumerate-three-unfilled-frequencies-under-a-positive-cap-and-adjacent-inequality-condition|bar-enumerate-three-unfilled-frequencies-under-a-positive-cap-and-adjacent-inequality-condition|4|44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "semesterKey": "g4s1",
+      "unitId": "sem1_unit5",
+      "skillId": "sem1_unit5/bar-enumerate-three-unfilled-frequencies-under-a-positive-cap-and-adjacent-inequality-condition",
+      "level": 4,
+      "style": "calculation",
+      "conditions": 4,
+      "minReviewSufficient": true,
+      "recent12WorstCase": false
+    },
+    {
+      "groupId": "sem1_unit2/angle-propagate-equal-base-angles-through-four-connected-isosceles-triangles|angle-propagate-equal-base-angles-through-four-connected-isosceles-triangles|3|44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "semesterKey": "g4s1",
+      "unitId": "sem1_unit2",
+      "skillId": "sem1_unit2/angle-propagate-equal-base-angles-through-four-connected-isosceles-triangles",
+      "level": 3,
+      "style": "calculation",
+      "conditions": 10,
+      "minReviewSufficient": true,
+      "recent12WorstCase": false
+    }
+  ],
+  "policy": "WHOLE_SESSION_COMPLETED_SEMANTICS_AND_RECENT12_KEEP; HOLD_IF_EXHAUSTED_NO_SCOPE_WIDENING_NO_NEW_REWARD"
+}

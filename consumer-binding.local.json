@@ -1,0 +1,79 @@
+{
+  "schema": "sunshine-local-consumer-binding/1",
+  "status": "PUBLIC_INACTIVE_REVIEW_NOT_STUDENT_ACTIVATION",
+  "version": "sunshine-part1-formal-candidate.1",
+  "build": "20261123-FORMAL-638-1",
+  "targetURL": "https://limjiseung62-lgtm.github.io/Cafe-Sunshine-Village/",
+  "namespace": "sunshine-village-official-v1/",
+  "studentActivation": false,
+  "manifestSHA256": "1e4acf80c8fb806b3b53339eca14252f4b6cace0c88c065d78e32b1545ce0f0e",
+  "publisherTrustSHA256": "d484e8d9e96106291a4084c5c2f49709fcee7e25c3be9bb87d497295d073284e",
+  "scopeDigest": "3d77e661b90e46641daa27eb37b4b8a8399a83f68105a5d274b45def3907300b",
+  "entries": [
+    {
+      "path": "index.html",
+      "sha256": "b20232661215675256c8a9a7d00febc3cf69d38f0fbc7e852f11f12f5e3fc2f9"
+    },
+    {
+      "path": "bootstrap.mjs",
+      "sha256": "c9711f685b9dacdd173f3c9c429d7981d3ee405b798ea4d9eac2bc0117e08143"
+    },
+    {
+      "path": "game-bootstrap.mjs",
+      "sha256": "2d5ab3877b7d516ced09f042c18e6456238bec729165974dc4f00a49b40308c5"
+    },
+    {
+      "path": "release-config.mjs",
+      "sha256": "929bfe9184e7e1e130255fa0cf5a011abf7cac1a224f6f29c598c2db5141e283"
+    },
+    {
+      "path": "release-verifier.mjs",
+      "sha256": "9cbfaecefbfd98d924fdfcbf7e07bb6f63b9f194b81de5be369090d7fc5230ad"
+    },
+    {
+      "path": "growth-import.mjs",
+      "sha256": "49086bbc76c3e8d096ee67f52c2dec4c4b859f2c2e9a684099800291cdefbe88"
+    },
+    {
+      "path": "native-backup-bridge.mjs",
+      "sha256": "1268f68c658cb144519b7c78ba9f373d8b5427cd41f03f8a044c7541f2aeac9d"
+    },
+    {
+      "path": "storage-engine.mjs",
+      "sha256": "d28a117b4001540e57cec0d3650a8b3fd89777fc25af3ae491302a98e672caf1"
+    },
+    {
+      "path": "storage-init.mjs",
+      "sha256": "4a8c30b0751501974f772c76584a2917f6747c51ec6e64404d5cdedc3eafd72d"
+    },
+    {
+      "path": "start-over.mjs",
+      "sha256": "5d1940675dc26bd6798274f6aa8e08f2ac7651335e12f596bf3552fb47492ed0"
+    },
+    {
+      "path": "src/story-ui.mjs",
+      "sha256": "a6b7b87a9acee68539478d4d51fc88e68e2a0911028f12d998053ba20334d57d"
+    },
+    {
+      "path": "game/v30CommonEntry.js",
+      "sha256": "4262823f676837bd5ed463b067870b51b3478191f26e1c7c8b769d7d9ec48ff9"
+    },
+    {
+      "path": "game/issuedMathLocal.js",
+      "sha256": "8c645467a0c71e5e01cc319a69308bc27e778257c3e5b6ffed3238600a58bd8e"
+    },
+    {
+      "path": "game/qa-provider.js",
+      "sha256": "dcf2be081bd90e967b3d17460a4dfc56f9cfcde99118892439cea79d79d1a72d"
+    },
+    {
+      "path": "game/commonBankLoader.js",
+      "sha256": "d2918e298e1b6b4df84c141b84d85e5451c9ed1a276d4dc3343696899a5f35f1"
+    },
+    {
+      "path": "game/formalStudentBoundary.js",
+      "sha256": "60494f246fe145d6626d1cf7056caa20181bf423256db2d367482a045a9fb186"
+    }
+  ],
+  "distribution": "https-inactive-review"
+}

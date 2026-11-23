@@ -1,0 +1,452 @@
+[
+  {
+    "id": "sem1_unit1/large-number-compose-group-count-then-read-in-korean",
+    "unitId": "sem1_unit1",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit1/large-number-subtract-two-Korean-large-number-values-and-report-the-whole-difference",
+    "unitId": "sem1_unit1",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit1/large-number.compare-the-place-value-of-one-given-digit-not-the-whole-numbers",
+    "unitId": "sem1_unit1",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit1/large-number.compose-repeated-large-unit-as-digits",
+    "unitId": "sem1_unit1",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit1/large-number.locate-a-given-digit-at-the-required-place-across-five-numbers",
+    "unitId": "sem1_unit1",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit1/large-number.reject-the-one-word-digit-or-unit-product-not-equivalent-to-a-given-target",
+    "unitId": "sem1_unit1",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit2/angle-judge-a-proposed-sum-or-difference-against-adjacent-or-nested-marked-ray-openings",
+    "unitId": "sem1_unit2",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit2/angle.choose-the-scale-starting-at-the-aligned-zero-in-real-diagram",
+    "unitId": "sem1_unit2",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit3/division-convert-hours-to-minutes-and-metres-to-kilometres-then-find-the-other-equal-distance-time",
+    "unitId": "sem1_unit3",
+    "reason": "NO_APPROVED_RC1_SUPPLY"
+  },
+  {
+    "id": "sem1_unit3/division-convert-the-circular-route-length-and-compare-two-exact-spacing-object-counts-without-an-extra-endpoint",
+    "unitId": "sem1_unit3",
+    "reason": "NO_APPROVED_RC1_SUPPLY"
+  },
+  {
+    "id": "sem1_unit3/division-identify-a-position-in-an-endpoint-nonduplicating-back-and-forth-cycle-and-map-it-to-a-box-color",
+    "unitId": "sem1_unit3",
+    "reason": "NO_APPROVED_RC1_SUPPLY"
+  },
+  {
+    "id": "sem1_unit3/division-select-two-relevant-hourly-travel-data-convert-to-minute-groups-and-express-the-other-time-in-hours-and-minutes",
+    "unitId": "sem1_unit3",
+    "reason": "NO_APPROVED_RC1_SUPPLY"
+  },
+  {
+    "id": "sem1_unit3/division-split-a-consecutive-remainder-sum-into-complete-zero-starting-cycles-and-a-final-prefix",
+    "unitId": "sem1_unit3",
+    "reason": "NO_APPROVED_RC1_SUPPLY"
+  },
+  {
+    "id": "sem1_unit3/division-use-place-value-blocks-to-identify-the-repeated-digit-from-the-three-digit-remainder",
+    "unitId": "sem1_unit3",
+    "reason": "NO_APPROVED_RC1_SUPPLY"
+  },
+  {
+    "id": "sem1_unit3/division.compute-and-filter-quotients-or-remainders",
+    "unitId": "sem1_unit3",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit3/division.identify-one-or-two-digit-quotient-from-explicit-candidates",
+    "unitId": "sem1_unit3",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit3/division.interpret-complete-groups-and-leftover-without-rounding-up",
+    "unitId": "sem1_unit3",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit3/division.interpret-number-per-group-in-exact-equal-sharing",
+    "unitId": "sem1_unit3",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit3/division.verify-worked-record-and-select-right-or-wrong",
+    "unitId": "sem1_unit3",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit3/multiplication-follow-the-four-step-units-digit-cycle-of-a-repeated-two-digit-factor",
+    "unitId": "sem1_unit3",
+    "reason": "NO_APPROVED_RC1_SUPPLY"
+  },
+  {
+    "id": "sem1_unit3/multiplication.compute-products-and-apply-specified-order",
+    "unitId": "sem1_unit3",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit3/multiplication.diagnose-product-calculation-records",
+    "unitId": "sem1_unit3",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit3/multiplication.interpret-equal-groups-and-compute-three-by-two-digit-total",
+    "unitId": "sem1_unit3",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit4/movement.apply-explicit-program-to-shape",
+    "unitId": "sem1_unit4",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit4/movement.classify-shapes-by-stated-symmetry-operations",
+    "unitId": "sem1_unit4",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit4/movement.compare-motif-construction-and-find-different-operation",
+    "unitId": "sem1_unit4",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit4/movement.compose-repeat-reflection-and-quarter-turn",
+    "unitId": "sem1_unit4",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit4/movement.distinguish-reachable-and-unreachable-poses",
+    "unitId": "sem1_unit4",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit4/movement.find-repeat-count-returning-to-original",
+    "unitId": "sem1_unit4",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit4/movement.infer-directed-displacement",
+    "unitId": "sem1_unit4",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit4/movement.infer-operation-from-before-and-after",
+    "unitId": "sem1_unit4",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit4/movement.infer-translation-invariants-from-two-positions",
+    "unitId": "sem1_unit4",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit4/movement.transform-filled-cell-pattern",
+    "unitId": "sem1_unit4",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit4/movement.undo-observed-program-and-apply-intended-program",
+    "unitId": "sem1_unit4",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit4/movement.validate-every-component-of-entire-pattern-under-allowed-isometries",
+    "unitId": "sem1_unit4",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit6/pattern-compare-minimum-and-maximum-regions-from-a-fixed-number-of-straight-cuts",
+    "unitId": "sem1_unit6",
+    "reason": "NO_APPROVED_RC1_SUPPLY"
+  },
+  {
+    "id": "sem1_unit6/pattern-extend-a-fixed-divisor-division-sequence-and-select-the-complete-next-expression",
+    "unitId": "sem1_unit6",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit6/pattern-extend-an-arithmetic-array-of-symmetric-sum-identities-and-select-the-requested-expression",
+    "unitId": "sem1_unit6",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit6/pattern-follow-an-explicit-even-odd-update-rule-for-two-verified-inputs-and-compare-step-counts",
+    "unitId": "sem1_unit6",
+    "reason": "NO_APPROVED_RC1_SUPPLY"
+  },
+  {
+    "id": "sem1_unit6/pattern-infer-a-place-digit-table-rule-and-recover-a-masked-cell",
+    "unitId": "sem1_unit6",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit6/pattern-infer-which-place-digit-of-an-operation-is-recorded-in-a-table",
+    "unitId": "sem1_unit6",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem1_unit6/pattern-use-a-multiplication-sequence-to-select-a-factor-for-a-specified-product",
+    "unitId": "sem1_unit6",
+    "reason": "NO_APPROVED_RC1_SUPPLY"
+  },
+  {
+    "id": "sem1_unit6/pattern.infer-geometric-array-growth-and-count-nth-stage",
+    "unitId": "sem1_unit6",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit1/fraction-add-daily-work-shares-and-count-full-days-until-one-whole-task-is-complete",
+    "unitId": "sem2_unit1",
+    "reason": "NO_APPROVED_RC1_SUPPLY"
+  },
+  {
+    "id": "sem2_unit1/fraction-calculate-two-differently-written-results-and-compare-their-values",
+    "unitId": "sem2_unit1",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit1/fraction-check-subtraction-results-with-a-specific-borrow-mode",
+    "unitId": "sem2_unit1",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit1/fraction-conserve-an-initial-quantity-after-removing-two-known-disjoint-quantities",
+    "unitId": "sem2_unit1",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit1/fraction-evaluate-mixed-additions-or-subtractions-and-select-exact-target-results",
+    "unitId": "sem2_unit1",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit1/fraction-interpret-one-whole-and-subtract-two-disjoint-proper-shares",
+    "unitId": "sem2_unit1",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit1/fraction.compare-borrow-conservation-and-improper-subtraction-procedures",
+    "unitId": "sem2_unit1",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit1/fraction.compute-two-mixed-sums-and-match-ordered-results",
+    "unitId": "sem2_unit1",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit1/fraction.compute-varied-subtraction-forms-and-identify-one-different-result",
+    "unitId": "sem2_unit1",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit1/fraction.find-extreme-values-then-subtract-same-denominator",
+    "unitId": "sem2_unit1",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit2/triangle.classify-each-cut-piece-and-count-selected-angle-classes",
+    "unitId": "sem2_unit2",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit2/triangle.classify-from-side-length-records",
+    "unitId": "sem2_unit2",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit2/triangle.classify-geometric-examples-by-stated-criterion",
+    "unitId": "sem2_unit2",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit2/triangle.complete-third-angle-and-select-a-classification-name",
+    "unitId": "sem2_unit2",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit2/triangle.infer-third-angle-and-classify",
+    "unitId": "sem2_unit2",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit2/triangle.restore-equal-side-from-perimeter-and-stated-length",
+    "unitId": "sem2_unit2",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit3/decimal-calculate-both-decimal-sums-before-comparing",
+    "unitId": "sem2_unit3",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit3/decimal-evaluate-two-complete-additive-expressions-with-place-aligned-calculation",
+    "unitId": "sem2_unit3",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit3/decimal-find-both-the-value-smaller-and-the-value-larger-by-a-specified-decimal-change",
+    "unitId": "sem2_unit3",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit3/decimal-read-the-lengths-of-two-consecutive-numberline-jumps-and-select-their-addition-equation",
+    "unitId": "sem2_unit3",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit3/decimal.convert-two-fractions-with-whole-parts",
+    "unitId": "sem2_unit3",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit3/decimal.filter-by-digit-at-declared-position",
+    "unitId": "sem2_unit3",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit3/decimal.read-two-marked-numberline-values",
+    "unitId": "sem2_unit3",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit4/lines-judge-a-substantive-set-of-perpendicular-parallel-and-distance-properties",
+    "unitId": "sem2_unit4",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit4/lines.count-parallel-pairs-from-direction-groups",
+    "unitId": "sem2_unit4",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit4/lines.select-vector-candidates-by-parallel-or-perpendicular",
+    "unitId": "sem2_unit4",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit4/lines.select-vector-pairs-by-parallel-or-perpendicular",
+    "unitId": "sem2_unit4",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit4/quadrilateral-test-universal-family-properties-and-counterexamples-in-substantively-different-claim-sets",
+    "unitId": "sem2_unit4",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit4/quadrilateral.classify-by-side-and-angle-relations",
+    "unitId": "sem2_unit4",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit4/quadrilateral.compare-all-four-side-lengths-of-marked-rhombus",
+    "unitId": "sem2_unit4",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit4/quadrilateral.compare-opposite-side-or-angle-measures-in-stated-family",
+    "unitId": "sem2_unit4",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit4/quadrilateral.conserve-wire-length-across-shape-types",
+    "unitId": "sem2_unit4",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit4/quadrilateral.restore-one-vertex-from-geometric-condition",
+    "unitId": "sem2_unit4",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit5/line-count-horizontal-and-vertical-grid-distances-apply-the-two-given-speeds-and-locate-a-time-distance-point",
+    "unitId": "sem2_unit5",
+    "reason": "NO_APPROVED_RC1_SUPPLY"
+  },
+  {
+    "id": "sem2_unit5/line-distinguish-segment-time-change-estimation-and-purpose-properties-in-substantive-claim-sets",
+    "unitId": "sem2_unit5",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit5/line-interpolate-each-distance-at-a-half-hour-and-divide-by-each-given-distance-per-litre-before-summing-fuel",
+    "unitId": "sem2_unit5",
+    "reason": "NO_APPROVED_RC1_SUPPLY"
+  },
+  {
+    "id": "sem2_unit5/line-read-starting-increments-and-extend-a-stated-constant-increase-in-the-increment-size",
+    "unitId": "sem2_unit5",
+    "reason": "NO_APPROVED_RC1_SUPPLY"
+  },
+  {
+    "id": "sem2_unit6/polygon-invert-the-triangle-decomposition-of-an-interior-angle-sum-to-recover-the-side-count",
+    "unitId": "sem2_unit6",
+    "reason": "NO_APPROVED_RC1_SUPPLY"
+  },
+  {
+    "id": "sem2_unit6/polygon-propagate-two-regular-interior-angles-through-a-shared-side-full-turn-supplements-and-a-quadrilateral",
+    "unitId": "sem2_unit6",
+    "reason": "NO_APPROVED_RC1_SUPPLY"
+  },
+  {
+    "id": "sem2_unit6/polygon-recover-the-side-count-from-all-diagonals-then-use-triangulation-and-equal-angles",
+    "unitId": "sem2_unit6",
+    "reason": "NO_APPROVED_RC1_SUPPLY"
+  },
+  {
+    "id": "sem2_unit6/polygon-recover-two-interiors-from-exteriors-and-subtract-known-interiors-from-a-hexagon-total",
+    "unitId": "sem2_unit6",
+    "reason": "NO_APPROVED_RC1_SUPPLY"
+  },
+  {
+    "id": "sem2_unit6/polygon-test-exterior-interior-conversion-a-remaining-pentagon-angle-and-length-deducibility",
+    "unitId": "sem2_unit6",
+    "reason": "NO_APPROVED_RC1_SUPPLY"
+  },
+  {
+    "id": "sem2_unit6/polygon-use-a-single-vertex-triangulation-and-triangle-angle-sums-to-find-the-total-interior-angle-measure",
+    "unitId": "sem2_unit6",
+    "reason": "NO_APPROVED_RC1_SUPPLY"
+  },
+  {
+    "id": "sem2_unit6/polygon-use-equal-adjacent-sides-and-isosceles-base-angles-to-check-three-sectors-at-a-chord-origin",
+    "unitId": "sem2_unit6",
+    "reason": "NO_APPROVED_RC1_SUPPLY"
+  },
+  {
+    "id": "sem2_unit6/polygon.compare-and-select-side-counts",
+    "unitId": "sem2_unit6",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit6/polygon.count-nonadjacent-vertex-segments",
+    "unitId": "sem2_unit6",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  },
+  {
+    "id": "sem2_unit6/polygon.count-sides-and-vertices-from-boundary",
+    "unitId": "sem2_unit6",
+    "reason": "NAME_OR_PROFILE_CONFIRMATION_REQUIRED"
+  }
+]

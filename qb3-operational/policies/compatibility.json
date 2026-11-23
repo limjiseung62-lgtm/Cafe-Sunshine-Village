@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "qb3-exact-record-compatibility/1",
+  "legacy11x": "KEEP_OLD_PROVIDER_NO_AUTOMATIC_MIGRATION",
+  "rc1SourceManifestSHA256": "2947f91645686b9fc3b13bae9aa4c7f26e6180e1c623c91da5f935efe4a361fb",
+  "targetScopeDigest": "3d77e661b90e46641daa27eb37b4b8a8399a83f68105a5d274b45def3907300b",
+  "sourceRowIdentity": "EXACT_QUESTION_VERSION_CONTENTHASH_PARAMS_EQUIVALENCE_SEMANTIC",
+  "optionalMigrationOnly": true,
+  "autoMigrate": false,
+  "immutableOriginalBackup": true,
+  "archiveOutsideSubsetReferences": true,
+  "outsideSubsetNeverRedelivered": true,
+  "restoreAllHistoricalUnitsBeforeCommit": true,
+  "preserve": [
+    "initial-correctness",
+    "review-notebook",
+    "review-completion",
+    "session-delivery-attempt-IDs",
+    "sourceId+baseFlowId-awards",
+    "multi-unit-ledger",
+    "pending-delivery"
+  ],
+  "atomicStockAwardsLearningCheckpointRequired": true,
+  "rollback": "RESTORE_PROVIDER_BINDING_NOT_DELETE_OR_DOWNGRADE_STUDENT_RECORDS",
+  "actualStudentRecordsUsed": false
+}

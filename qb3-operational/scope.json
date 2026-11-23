@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "qb3-exact-operating-scope/1",
+  "subject": "math",
+  "grade": 4,
+  "semesters": [
+    1,
+    2
+  ],
+  "units": 12,
+  "objectives": 638,
+  "profiles": 840,
+  "conditions": 124375,
+  "excludedSourceConditions": 3023,
+  "blockedObjectives": {
+    "namePending": 69,
+    "noApprovedSupply": 21
+  },
+  "sourceRelease": "3.0.0-rc.1",
+  "sourceManifestSHA256": "2947f91645686b9fc3b13bae9aa4c7f26e6180e1c623c91da5f935efe4a361fb",
+  "consumerId": "cafe-learning-tycoon",
+  "gameId": "cafe",
+  "codeClosureSHA256": "857b3a5c540a0daf0d98681ae4e966f9e44ffd2edf7349254537883e7be0ee2e",
+  "dataInventorySHA256": "7665207fe68a77f27edae9a667bc377fc9a765e2fe51e5b73512348c40bc95a2",
+  "resourceConfigSHA256": "dff3cd7cd8424a3639e8b3152563a7e89a26c758b28ab9a72eb87d4b49314fcf",
+  "codeInputPinsSHA256": "d4e4d9bbac5d2793871b74a92edfd7876f8f8ea3c37c431016860ee68fc7e0a8",
+  "objectiveMappingSHA256": "a340a6a65539f8082e1cf24f23e886c5cd3b9cf919a864e97d3836a4f981e772",
+  "supplyPolicySHA256": "6835a107d4043807b6c259ecd5013191b0b755cfa131fbbeea9bcb5b98e7ebfa",
+  "contentApprovalOverlaySHA256": "d0bc707a53730e862e56baa1c781cd4e53babaff5c0cb4eb3794acd3cca1cfa9",
+  "authorityPurpose": "ISSUE_EXACT_SUPPLIER_PACK_ONLY; NO_STUDENT_ACTIVATION_OR_GAME_DEPLOYMENT",
+  "declaredGameVersionBuild": "DEFERRED_MUST_BE_EXACTLY_BOUND_AT_CAFE_HANDOFF; NULL_IS_NOT_A_WILDCARD"
+}

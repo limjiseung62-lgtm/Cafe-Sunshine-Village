@@ -1,0 +1,9 @@
+{
+  "schemaVersion": "qb3-publisher-authority/1",
+  "state": "ISSUED_EXACT_SCOPE",
+  "receiptSHA256": "5017cafd731fb7a8dd15a0c38fbca0be334b0eb1ace744c580be26a3b9b5fbf6",
+  "approvalRecordSHA256": "533ee1add80ad15fa3ffc2507e5f8816adf7ecafc2e3a5bd8daa50b5db84060e",
+  "manifestSHA256": "1e4acf80c8fb806b3b53339eca14252f4b6cace0c88c065d78e32b1545ce0f0e",
+  "scopeDigest": "3d77e661b90e46641daa27eb37b4b8a8399a83f68105a5d274b45def3907300b",
+  "studentActivation": false
+}

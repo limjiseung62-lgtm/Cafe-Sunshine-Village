@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "qb3-exact-consumer-binding/1",
+  "state": "NOT_BOUND_NO_STUDENT_ACTIVATION",
+  "consumerId": "cafe-learning-tycoon",
+  "gameId": "cafe",
+  "origin": "https://limjiseung62-lgtm.github.io",
+  "basePath": "/Cafe-Sunshine-Village/",
+  "gameVersion": null,
+  "gameBuild": null,
+  "gameEntrySHA256": null,
+  "studentActivation": false
+}

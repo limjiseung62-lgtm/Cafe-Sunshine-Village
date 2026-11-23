@@ -1,0 +1,10 @@
+{
+  "schemaVersion": "qb3-trusted-consumer-bootstrap/1",
+  "state": "PINNED_ISSUED_SUPPLIER",
+  "publisherTrustSHA256": "d484e8d9e96106291a4084c5c2f49709fcee7e25c3be9bb87d497295d073284e",
+  "manifestSHA256": "1e4acf80c8fb806b3b53339eca14252f4b6cace0c88c065d78e32b1545ce0f0e",
+  "scopeDigest": "3d77e661b90e46641daa27eb37b4b8a8399a83f68105a5d274b45def3907300b",
+  "pinInCompiledCafeEntryAfterIssuance": true,
+  "studentActivation": false,
+  "exactFutureGameBindingRequired": true
+}

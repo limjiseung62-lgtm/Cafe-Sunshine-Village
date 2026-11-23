@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "qb3-operating-authority-record/1",
+  "status": "EXPLICIT_USER_OPERATING_SUPPLY_APPROVAL",
+  "approvalId": "OP-QB3-G4-638-f7a30e51-a763-452b-b47a-285a586748dd",
+  "recordedAt": "2026-11-22T18:45:39.965723+00:00",
+  "historicalDecisionAt": null,
+  "authorityType": "EXPLICIT_CHATGPT_USER_DECISION_ON_SEALED_SCOPE",
+  "userInstructionQuote": "위 봉인 범위의 운영 공급팩 발행 승인",
+  "sealedQuestion": "이번 지시의 0·6절에 따라 발행 직전 확인합니다. 봉인 범위(scopeDigest: 3d77e661b90e46641daa27eb37b4b8a8399a83f68105a5d274b45def3907300b)의 638목표·840프로필·124,375조건을 cafe-learning-tycoon(cafe), https://limjiseung62-lgtm.github.io/Cafe-Sunshine-Village/ 계약의 운영 공급팩으로 발행하고 승인 기록·영수증·manifest를 생성해도 될까요? 학생 활성화·공개 배포·미확정 게임 빌드 승인은 제외합니다.",
+  "sourceQuestionItemId": "[\"request_user_input_async\",\"call_eafcdef194674c5e8502eba37bc052ea\",0]",
+  "scopeDigest": "3d77e661b90e46641daa27eb37b4b8a8399a83f68105a5d274b45def3907300b",
+  "codeClosureSHA256": "857b3a5c540a0daf0d98681ae4e966f9e44ffd2edf7349254537883e7be0ee2e",
+  "dataInventorySHA256": "7665207fe68a77f27edae9a667bc377fc9a765e2fe51e5b73512348c40bc95a2",
+  "compatibilitySHA256": "290353951b0165e71afe5b4d6c70dfb80d08aa3900b9e4aef0b2009e8f6d759e",
+  "contentApprovalNotRepurposed": true,
+  "gameButtonClickClaimed": false,
+  "actualHumanPerQuestionReviewClaimed": false,
+  "reviewer": null,
+  "reviewedAt": null,
+  "studentActivationAuthorized": false,
+  "gameOrPortalDeploymentAuthorized": false,
+  "unknownFutureGameBuildAuthorized": false
+}

@@ -1,0 +1,44 @@
+import{RELEASE}from'./release-config.mjs';
+import{encodeStored,decodeStored}from'./storage-codec.mjs';
+import{createDurableHub,bindCafeWrite,recoverPreviousDatabase,MAIN}from'./storage-engine.mjs?v=20261119-3';
+import{storageFailure}from'./storage-errors.mjs?v=20261119-3';
+export const NAMESPACE=RELEASE.namespace;let prepared=false,nativeOpen,rawStorage,rawSession,native;const facades=new WeakMap();
+export function prepareStorageIsolation(){if(prepared)return;prepared=true;const p=Storage.prototype;native={get:p.getItem,set:p.setItem,remove:p.removeItem,key:p.key,length:Object.getOwnPropertyDescriptor(p,'length').get};try{rawStorage=globalThis.localStorage}catch(e){rawStorage={error:e}}try{rawSession=globalThis.sessionStorage}catch{}
+ nativeOpen=indexedDB.open.bind(indexedDB);const del=indexedDB.deleteDatabase.bind(indexedDB);indexedDB.open=(n,v)=>nativeOpen(NAMESPACE+n,v);indexedDB.deleteDatabase=n=>del(NAMESPACE+n);
+ if(navigator.locks){const req=navigator.locks.request.bind(navigator.locks);navigator.locks.request=(n,...args)=>req(NAMESPACE+n,...args)}
+ for(const[name,fn]of Object.entries({getItem:'get',setItem:'set',removeItem:'remove',key:'key',clear:'clear'})){const original=p[name];p[name]=function(...args){return facades.has(this)?facades.get(this)[fn](...args):original.apply(this,args)}}
+ const originalLength=native.length;Object.defineProperty(p,'length',{configurable:true,get(){return facades.has(this)?facades.get(this).keys().length:originalLength.call(this)}});
+}
+export async function installStorage(){if(globalThis.__SUNSHINE_ISOLATED)return;prepareStorageIsolation();let hub;if(parent!==window){hub=parent.__SUNSHINE_DURABLE_HUB;if(!hub)throw Error('상위 카페 저장소가 준비되지 않았어요.');}else{try{hub=await createDurableHub({open:nativeOpen,legacyRows(){if(rawStorage?.error)throw rawStorage.error;return Array.from({length:native.length.call(rawStorage)},(_,i)=>native.key.call(rawStorage,i)).filter(k=>k?.startsWith(NAMESPACE)).map(k=>[k,native.get.call(rawStorage,k)]).sort((a,b)=>a[0].localeCompare(b[0]));}});}catch(e){e.storageBackend='IndexedDB';throw e}globalThis.__SUNSHINE_DURABLE_HUB=hub;}
+ const session=new Map();if(rawSession)try{for(let i=0;i<native.length.call(rawSession);i++){const k=native.key.call(rawSession,i);if(k?.startsWith(NAMESPACE))session.set(k.slice(NAMESPACE.length),native.get.call(rawSession,k));}}catch{}
+ const owner=()=>{if(globalThis.__SUNSHINE_ARCHIVE_CREATED_AT)return globalThis.__SUNSHINE_ARCHIVE_CREATED_AT;try{return JSON.parse(decodeStored(hub.rawGet(MAIN))??'null')?.createdAt??'unbound'}catch{return'unbound'}};const record=k=>/^cafe-v30-mega-common-rc1\/common-record(?:\/|-index$)/.test(k),physical=k=>(record(k)?'learning/'+encodeURIComponent(owner())+'/':'')+k;
+ const keys=()=>{const prefix='learning/'+encodeURIComponent(owner())+'/';return hub.rawEntries().map(([k])=>k.slice(NAMESPACE.length)).filter(k=>!k.startsWith('learning/')||k.startsWith(prefix)).map(k=>k.startsWith(prefix)?k.slice(prefix.length):k)};
+ const api={keys,get:k=>decodeStored(hub.rawGet(physical(String(k)))),set(k,v){k=String(k);v=String(v);const encoded=encodeStored(v);if(k===MAIN)bindCafeWrite(hub,JSON.parse(v));hub.rawSet(physical(k),encoded)},remove:k=>hub.rawRemove(physical(String(k))),key:i=>keys()[i]??null,clear(){for(const k of keys())hub.rawRemove(physical(k))}};
+ const sessionApi={keys:()=>[...session.keys()],get:k=>session.get(String(k))??null,set(k,v){k=String(k);v=String(v);session.set(k,v);try{if(rawSession)native.set.call(rawSession,NAMESPACE+k,v)}catch{}},remove(k){k=String(k);session.delete(k);try{if(rawSession)native.remove.call(rawSession,NAMESPACE+k)}catch{}},key:i=>[...session.keys()][i]??null,clear(){for(const k of [...session.keys()])this.remove(k)}};
+ function facade(a){const methods={getItem:k=>a.get(k),setItem:(k,v)=>a.set(k,v),removeItem:k=>a.remove(k),clear:()=>a.clear(),key:i=>a.key(i)};const proxy=new Proxy(Object.create(null),{get:(_,k)=>k==='length'?a.keys().length:typeof k==='symbol'?undefined:Object.hasOwn(methods,k)?methods[k]:a.get(k)??undefined,set:(_,k,v)=>{a.set(k,v);return true},deleteProperty:(_,k)=>{a.remove(k);return true},ownKeys:()=>a.keys(),getOwnPropertyDescriptor:(_,k)=>a.keys().includes(k)?{configurable:true,enumerable:true,writable:true,value:a.get(k)}:undefined});facades.set(proxy,a);return proxy;}
+ Object.defineProperty(window,'localStorage',{configurable:true,value:facade(api)});Object.defineProperty(window,'sessionStorage',{configurable:true,value:facade(sessionApi)});
+ globalThis.__SUNSHINE_STORAGE_INTERNAL={entries:()=>hub.rawEntries().map(([k,v])=>[k.slice(NAMESPACE.length),v]),set:(_s,k,v)=>hub.rawSet(k,v),remove:(_s,k)=>hub.rawRemove(k),atomic:fn=>hub.atomic(fn)};
+ globalThis.__SUNSHINE_STORAGE_FLUSH=()=>hub.flush();globalThis.__SUNSHINE_STORAGE_STATE=()=>hub.diagnostics();Object.defineProperty(globalThis,'__SUNSHINE_STORAGE_BLOCKED',{configurable:true,get:()=>hub.blocked});globalThis.__SUNSHINE_ISOLATED=true;
+ installStatus(hub);await hub.flush();
+}
+function installStatus(hub){
+ let panel;
+ const paint=()=>{
+  if(!document.body)return;
+  const status=document.getElementById('save-status');
+  if(!hub.blocked){panel?.close();panel?.remove();panel=null;if(status?.dataset.idbPending){status.textContent='저장 완료 ✓';delete status.dataset.idbPending;}return;}
+  if(status){status.textContent=hub.error?'저장 확인 필요':'저장 중…';status.dataset.idbPending='true';}
+  // Normal saves never open or flash a modal, including slow saves.
+  // Pending input/gameplay barriers remain active until commit + readback.
+  if(!hub.error)return;
+  if(!panel){panel=document.createElement('dialog');panel.id='sunshine-storage-status';panel.style.cssText='max-width:min(90vw,480px);padding:24px;border:2px solid #66805a;border-radius:18px;background:#fff9ec;color:#294331';panel.addEventListener('cancel',e=>e.preventDefault());document.body.append(panel);panel.showModal();}
+  panel.replaceChildren();const title=document.createElement('h2'),text=document.createElement('p');title.textContent='저장을 완료하지 못했어요';text.textContent=storageFailure(hub.error).message;panel.append(title,text);
+  const retry=document.createElement('button'),reload=document.createElement('button');retry.textContent='다시 저장하고 카페 열기';reload.textContent='마지막 정상 저장 다시 열기';for(const b of[retry,reload])b.style.cssText='min-height:48px;margin:8px;padding:12px';retry.onclick=async()=>{retry.disabled=true;try{await hub.retry();location.reload()}catch{paint()}};reload.onclick=()=>location.reload();panel.append(retry,reload);
+ };
+ hub.subscribe(paint);paint();addEventListener('pagehide',()=>{void hub.flush().catch(()=>{})});
+ document.addEventListener('click',e=>{if(hub.blocked&&!panel?.contains(e.target)){e.preventDefault();e.stopImmediatePropagation()}},true);
+ document.addEventListener('keydown',e=>{if(hub.blocked&&!panel?.contains(e.target)){e.preventDefault();e.stopImmediatePropagation()}},true);
+}
+export const compactExistingCafe=()=>({rewritten:false,backend:'IndexedDB'});
+
+export const recoverPreviousStorage=()=>recoverPreviousDatabase(nativeOpen);

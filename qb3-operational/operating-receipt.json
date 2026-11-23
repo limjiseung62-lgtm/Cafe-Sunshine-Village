@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "common-learning-operational-approval/1",
+  "status": "APPROVED_EXACT_SCOPE",
+  "issued": true,
+  "operationalApproval": true,
+  "approvalId": "OP-QB3-G4-638-f7a30e51-a763-452b-b47a-285a586748dd",
+  "recordedAt": "2026-11-22T18:45:39.965723+00:00",
+  "approvalRecordSHA256": "533ee1add80ad15fa3ffc2507e5f8816adf7ecafc2e3a5bd8daa50b5db84060e",
+  "scopeDigest": "3d77e661b90e46641daa27eb37b4b8a8399a83f68105a5d274b45def3907300b",
+  "codeClosureSHA256": "857b3a5c540a0daf0d98681ae4e966f9e44ffd2edf7349254537883e7be0ee2e",
+  "dataInventorySHA256": "7665207fe68a77f27edae9a667bc377fc9a765e2fe51e5b73512348c40bc95a2",
+  "compatibilitySHA256": "290353951b0165e71afe5b4d6c70dfb80d08aa3900b9e4aef0b2009e8f6d759e",
+  "scope": {
+    "subject": "math",
+    "grade": 4,
+    "objectives": 638,
+    "profiles": 840,
+    "conditions": 124375,
+    "excludedSourceConditions": 3023
+  },
+  "consumerId": "cafe-learning-tycoon",
+  "gameId": "cafe",
+  "allowedOrigin": "https://limjiseung62-lgtm.github.io",
+  "allowedBasePath": "/Cafe-Sunshine-Village/",
+  "studentActivation": false,
+  "productionReady": false,
+  "gameDeploymentApproved": false,
+  "exactFutureGameBindingRequired": true,
+  "supplierRelease": "3.0.0-operational.1",
+  "purpose": "ISSUE_EXACT_SUPPLIER_PACK_ONLY_NOT_STUDENT_ACTIVATION"
+}

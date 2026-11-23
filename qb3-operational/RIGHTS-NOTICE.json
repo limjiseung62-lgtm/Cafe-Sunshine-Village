@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "qb3-rights-provenance-notice/1",
+  "inheritedStatus": "PROJECT_CREATION_PATH_CONFIRMED_THIS_FILTERED_BUILD",
+  "sourceReleaseManifestSHA256": "2947f91645686b9fc3b13bae9aa4c7f26e6180e1c623c91da5f935efe4a361fb",
+  "sourceRightsBasisSHA256": "1c5943d6544d99ee3e9a125bc317faf4c6b198e60089a98598c2c58e4b8062a0",
+  "contentSource": "Existing approved project-authored text, explanations, SVG and finite mathematical conditions; exact original chunk bytes retained",
+  "runtimeSource": "Existing project core, unchanged grading/review algorithm; finite-provider and integrity connectors authored in project",
+  "newExternalAssetsAdded": false,
+  "originalPDFHWPPhotosAndPrivateReviewRecordsIncluded": false,
+  "newCopyrightOwnershipOrUniversalLicenseClaim": false,
+  "rightsOperatingAndDeploymentApprovalsRemainSeparate": true
+}

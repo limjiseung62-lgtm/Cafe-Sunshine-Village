@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "qb3-supplier-code-closure/1",
+  "version": "qb3-op-supply/1.0.0-candidate",
+  "files": [
+    {
+      "path": "runtime/asset-io.mjs",
+      "sha256": "6fb28c8167c8859bf086d4922aa4dd06745386a58d7181dfb9427689a4b54383",
+      "bytes": 1829
+    },
+    {
+      "path": "runtime/authorization.mjs",
+      "sha256": "46a784b352eaea6244bf9e17670287483b7f0a3bb8c75bec34490b8243cf3595",
+      "bytes": 4024
+    },
+    {
+      "path": "runtime/connected-runtime.mjs",
+      "sha256": "f87576bcfd5cc48cb4df7d27f8bfc095fb6d84ebf5163a91ea5009c602436374",
+      "bytes": 1203
+    },
+    {
+      "path": "runtime/engine-binding.mjs",
+      "sha256": "504348077d747423937e1989b12ffc62a8cc93e99d03c9059adb8fefe8377159",
+      "bytes": 6051
+    },
+    {
+      "path": "runtime/entry.mjs",
+      "sha256": "a73f8fe13bd08dbc444d76d454b1e58af2929cc0cf289756c3129a102139bbb7",
+      "bytes": 4772
+    },
+    {
+      "path": "runtime/integrity.mjs",
+      "sha256": "8af69dd06ba6f38355d0841160cb2f6eb19e34e6050f90776a0ecea26a4a6181",
+      "bytes": 1995
+    },
+    {
+      "path": "runtime/record-compatibility.mjs",
+      "sha256": "91c5d8e067696677988f8c772d56cae8d4b7f9ac8cedfd85495ef8974f38684f",
+      "bytes": 1287
+    },
+    {
+      "path": "runtime/scoped-loader.mjs",
+      "sha256": "5ee9b3157f0b2e0bd910bc26c3a0ea6de942a10d3f640b419e9ba5328ea5590d",
+      "bytes": 6086
+    },
+    {
+      "path": "runtime/shared-core.mjs",
+      "sha256": "337bdb2f1a99494fca8355b82809081b6b2874685521d8d90b3b478e83f9e2ca",
+      "bytes": 756714
+    }
+  ],
+  "sharedEngine": "Existing EquivalentTwoPolicy/sharedGradeAnswer; original algorithm unchanged",
+  "staticExports": "Only finite provider, shared engine, explicit consumer initializer and nonstudent receipt verification; no preview/browserStorage default exports",
+  "approvalMetadataAndConsumerBootstrapNotInCodeDigest": true
+}
